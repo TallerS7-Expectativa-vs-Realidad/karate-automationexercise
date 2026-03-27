@@ -18,8 +18,8 @@ Feature: Actualizar cuenta de usuario
     And form field address2       = 'Piso 2'
     And form field country        = 'Uruguay'
     And form field zipcode        = '54321'
-    And form field state          = 'Paysandu'
-    And form field city           = 'Paysandu'
+    And form field state          = 'Paysandú'
+    And form field city           = 'Paysandú'
     And form field mobile_number  = '0987654321'
     When method put
     Then status 200
